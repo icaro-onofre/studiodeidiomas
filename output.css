@@ -653,20 +653,12 @@ video {
   isolation: auto;
 }
 
-.col-start-4 {
-  grid-column-start: 4;
+.col-start-2 {
+  grid-column-start: 2;
 }
 
-.col-start-1 {
-  grid-column-start: 1;
-}
-
-.col-end-6 {
-  grid-column-end: 6;
-}
-
-.col-end-12 {
-  grid-column-end: 12;
+.col-end-11 {
+  grid-column-end: 11;
 }
 
 .float-start {
@@ -717,8 +709,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
+.mt-52 {
+  margin-top: 13rem;
 }
 
 .box-border {
@@ -828,20 +820,20 @@ video {
   height: 8rem;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .h-full {
   height: 100%;
 }
 
-.h-1\/4 {
-  height: 25%;
+.w-56 {
+  width: 14rem;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
-.w-60 {
-  width: 15rem;
+.w-64 {
+  width: 16rem;
 }
 
 .w-\[this-is\\\\\] {
@@ -1196,6 +1188,10 @@ video {
 
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-rows-12 {
+  grid-template-rows: repeat(12, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1846,14 +1842,14 @@ video {
   background-color: rgb(243 244 254 / var(--tw-bg-opacity));
 }
 
-.bg-mainRed {
-  --tw-bg-opacity: 1;
-  background-color: rgb(223 40 40 / var(--tw-bg-opacity));
-}
-
 .bg-lightRed {
   --tw-bg-opacity: 1;
   background-color: rgb(255 232 228 / var(--tw-bg-opacity));
+}
+
+.bg-mainRed {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 40 40 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2024,10 +2020,6 @@ video {
 
 .font-\[\'Oswald\'\] {
   font-family: 'Oswald';
-}
-
-.font-\[\'Roboto\'\] {
-  font-family: 'Roboto';
 }
 
 .text-2xl {
