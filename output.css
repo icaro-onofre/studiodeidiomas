@@ -669,12 +669,28 @@ video {
   grid-column-start: 2;
 }
 
+.col-start-3 {
+  grid-column-start: 3;
+}
+
 .col-start-4 {
   grid-column-start: 4;
 }
 
-.col-start-3 {
-  grid-column-start: 3;
+.col-start-5 {
+  grid-column-start: 5;
+}
+
+.col-start-6 {
+  grid-column-start: 6;
+}
+
+.col-start-7 {
+  grid-column-start: 7;
+}
+
+.col-end-10 {
+  grid-column-end: 10;
 }
 
 .col-end-12 {
@@ -685,12 +701,16 @@ video {
   grid-column-end: 13;
 }
 
-.col-end-10 {
-  grid-column-end: 10;
-}
-
 .col-end-5 {
   grid-column-end: 5;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
+}
+
+.col-end-11 {
+  grid-column-end: 11;
 }
 
 .float-start {
@@ -741,8 +761,12 @@ video {
   margin: 0.25rem;
 }
 
-.mr-12 {
-  margin-right: 3rem;
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
@@ -753,20 +777,8 @@ video {
   margin-top: 5rem;
 }
 
-.ml-12 {
-  margin-left: 3rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
 }
 
 .box-border {
@@ -896,6 +908,10 @@ video {
   height: 513px;
 }
 
+.h-\[631px\] {
+  height: 631px;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -906,6 +922,10 @@ video {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .w-\[494px\] {
@@ -924,24 +944,8 @@ video {
   width: weird-and-invalid;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
 .w-32 {
   width: 8rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .flex-shrink {
@@ -1470,6 +1474,12 @@ video {
   gap: 1.25rem;
 }
 
+.space-x-14 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1488,28 +1498,28 @@ video {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.space-x-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
-.space-x-16 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(4rem * var(--tw-space-x-reverse));
-  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-14 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(3.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -1965,7 +1975,7 @@ video {
 
 .bg-background {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 254 / var(--tw-bg-opacity));
+  background-color: rgb(255 249 249 / var(--tw-bg-opacity));
 }
 
 .bg-lightRed {
@@ -2584,6 +2594,40 @@ video {
 
 .\[a-zA-Z0-9\:\\\\-\\\\\._\$\] {
   a-z-a--z0-9: \\-\\. $;
+}
+
+.slides{
+  width:400%;
+  height:400px;
+  display:flex;
+}
+
+.slides input {
+  display:none;
+}
+
+.slide {
+  widht:25%;
+  position:relative;
+}
+
+.slide img{
+  width: 800px;
+}
+
+.manual-navigation {
+  position:absolute;
+  width:800px;
+  margin-top:-40px;
+  display:flex;
+  justify-content:center;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor:pointer;
 }
 
 @media (min-width: 640px) {

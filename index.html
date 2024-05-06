@@ -7,9 +7,26 @@
 	<link href="./output.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Yeseva+One&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Yeseva+One&display=swap" rel="stylesheet">
+
+	<style>
+		.carousel-container {
+			width: 500px;
+			overflow: hidden;
+			position: relative;
+			margin: 0 auto;
+			border-radius:20px;
+		}
+
+		.carousel-track {
+			display: flex;
+			transition: transform 0.5s ease-in-out;
+		}
+
+		.carousel-item {
+			flex: 0 0 500px;
+		}
+	</style>
 
 </head>
 
@@ -69,22 +86,77 @@
 		<section class="col-start-2 col-end-13 items-center mt-20 grid grid-cols-12 gap-5">
 			<h1 class="text-3xl font-bold col-start-1 col-end-13">Nossa história na cidade de Campo Limpo Paulista</h1>
 			<div class=" col-start-2 col-end-10 flex flex-row justify-between items-center mt-12 space-x-14">
-				<p class="w-80 text-xl font-bold text-justify"> Há 29 anos na cidade de Campo limpo Paulista, o Studio de
-				Idiomas oferece cursos de Inglês, Alemão, Espanhol, Italiano e
-				Português para estrangeiros. Os cursos são voltados para crianças a
-				partir de 8 anos, jovens e adultos.
+				<p class="w-80 text-xl font-bold text-justify"> Há 29 anos na cidade de Campo limpo Paulista, o Studio
+					de
+					Idiomas oferece cursos de Inglês, Alemão, Espanhol, Italiano e
+					Português para estrangeiros. Os cursos são voltados para crianças a
+					partir de 8 anos, jovens e adultos.
 
-				Valéria Propietário do Studio, já laureada pela prefeitura de Campo
-				Limpo Paulista por suas atividades na cidade.</p>
+					Valéria Propietário do Studio, já laureada pela prefeitura de Campo
+					Limpo Paulista por suas atividades na cidade.</p>
 
 				<img class="object-cover w-[494px] h-[379px] rounded-[8px] shadow-1xl"
-				src="./assets_folder/fotos/fachada.png" />
+					src="./assets_folder/fotos/fachada.png" />
 
 			</div>
 		</section>
 
+		<section
+			class="col-start-1 col-end-13 items-center mt-20 grid grid-cols-12 gap-5 bg-mainRed h-[631px] space-x-14">
 
+			<div class="col-start-2 col-end-5 carousel-container">
+				<div class="carousel-track" id="carouselTrack">
+					<div class="carousel-item">
+						<img class="carouselimg" src="./assets_folder/fotos/sala_de_aula1.png">
+					</div>
+					<div class="carousel-item">
+						<img class="carouselimg" src="./assets_folder/fotos/sala_de_aula2.png">
+					</div>
+					<div class="carousel-item">
+						<img class="carouselimg" src="./assets_folder/fotos/sala_de_aula3.png">
+					</div>
+				</div>
+			</div>
+
+			<div class="col-start-7 col-end-12  justify-between items-center space-y-8">
+				<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">O que torna o Studio de Idiomas especial pra você?</h1>
+				<p class="w-80 text-xl font-bold text-justify text-white"> “O conhecimento dos professores e forma como
+					é trabalhada a comunicação, trazendo sempre a possibilidade de aprender novos vocabulários de
+					diferentes áreas.”</p>
+			</div>
+		</section>
 	</main>
 </body>
+
+<script>
+	const track = document.getElementById('carouselTrack');
+	const items = document.querySelectorAll('.carousel-item');
+	const trackWidth = items.length * items[0].offsetWidth;
+
+	let index = 0;
+
+	function slideNext() {
+		index++;
+		if (index > items.length - 1) {
+			index = 0;
+		}
+		updateSlide();
+	}
+
+	function slidePrev() {
+		index--;
+		if (index < 0) {
+			index = items.length - 1;
+		}
+		updateSlide();
+	}
+
+	function updateSlide() {
+		const offset = -index * items[0].offsetWidth;
+		track.style.transform = `translateX(${offset}px)`;
+	}
+
+	setInterval(slideNext, 3000); // Automatically slide every 3 seconds
+</script>
 
 </html>
