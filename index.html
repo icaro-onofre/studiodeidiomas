@@ -7,7 +7,9 @@
 	<link href="./output.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Yeseva+One&display=swap"
+		rel="stylesheet">
 
 	<style>
 		.carousel-container {
@@ -15,7 +17,7 @@
 			overflow: hidden;
 			position: relative;
 			margin: 0 auto;
-			border-radius:20px;
+			border-radius: 20px;
 		}
 
 		.carousel-track {
@@ -23,7 +25,25 @@
 			transition: transform 0.5s ease-in-out;
 		}
 
+
 		.carousel-item {
+			flex: 0 0 500px;
+		}
+
+		.carousel-text-container {
+			width: 500px;
+			overflow: hidden;
+			position: relative;
+			margin: 0 auto;
+			border-radius: 20px;
+		}
+
+		.carousel-text-track {
+			display: flex;
+			transition: transform 0.5s ease-in-out;
+		}
+
+		.text-carousel-item {
 			flex: 0 0 500px;
 		}
 	</style>
@@ -118,19 +138,73 @@
 				</div>
 			</div>
 
-			<div class="col-start-7 col-end-12  justify-between items-center space-y-8">
-				<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">O que torna o Studio de Idiomas especial pra você?</h1>
-				<p class="w-80 text-xl font-bold text-justify text-white"> “O conhecimento dos professores e forma como
-					é trabalhada a comunicação, trazendo sempre a possibilidade de aprender novos vocabulários de
-					diferentes áreas.”</p>
+
+			<div class="col-start-7 col-end-12  justify-between items-center space-y-8 carousel-text-container">
+				<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">O que torna o Studio de
+					Idiomas especial pra você?</h1>
+
+				<div class="carousel-text-track" id="carouselTextTrack">
+					<div class="text-carousel-item">
+						<p class="w-80 text-xl font-bold text-justify text-white">
+							“O conhecimento dos professores e forma
+							como é trabalhada a comunicação, trazendo sempre a
+							possibilidade de aprender novos vocabulários de diferentes áreas.”
+						</p>
+					</div>
+					<div class="text-carousel-item">
+						<p class="w-80 text-xl font-bold text-justify text-white">
+							“A vontade dos professores de ensinar, as aulas dinâmicas e,
+							nós alunos, estando sempre em constante evolução na matéria!”
+						</p>
+					</div>
+					<div class="text-carousel-item">
+						<p class="w-80 text-xl font-bold text-justify text-white">
+							“As pessoas, tanto os professores, a recepção e os alunos,
+							posso dizer que fiz grandes amizades no Studio de Idiomas.”
+						</p>
+					</div>
+					<div class="text-carousel-item">
+						<p class="w-80 text-xl font-bold text-justify text-white">
+							“Ótima, me ajudou muito a me desenvolver e aplicar no trabalho, além de perder o medo de
+							falar e me fazer compreendido.”
+						</p>
+					</div>
+
+					<div class="text-carousel-item">
+						<p class="w-80 text-xl font-bold text-justify text-white">
+							“Foi muito boa e agradável,
+							professores preparados, super simpáticos, com boa didática e atenciosos, ambiente limpo e
+							tranquilo, boa estrutura e atendimento.”
+						</p>
+					</div>
+					<div class="text-carousel-item">
+						<p class="w-80 text-xl font-bold text-justify text-white">“Um lugar acolhedor que visa ensinar
+							idiomas estrangeiros aos alunos. Além disso, um complemento pra formação do aluno como
+							indivíduo para a sociedade.”</p>
+					</div>
+				</div>
 			</div>
 		</section>
+
+		<section
+			class="col-start-1 col-end-13 items-center mt-20 grid grid-cols-12 gap-5  h-[631px] space-x-14">
+			<div class="col-start-2 col-end-6 rounded-sm">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d599.6316581331035!2d-46.78384478079201!3d-23.209212917297148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1715130475561!5m2!1sen!2sbr"
+					width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</section>
+
+		<footer class="col-start-1 col-end-13 bg-mainRed h-[220px]"/>
 	</main>
 </body>
 
 <script>
 	const track = document.getElementById('carouselTrack');
+	const textTrack = document.getElementById('carouselTextTrack');
 	const items = document.querySelectorAll('.carousel-item');
+	const texts = document.querySelectorAll('.carousel-text-item');
 	const trackWidth = items.length * items[0].offsetWidth;
 
 	let index = 0;
@@ -154,6 +228,7 @@
 	function updateSlide() {
 		const offset = -index * items[0].offsetWidth;
 		track.style.transform = `translateX(${offset}px)`;
+		textTrack.style.transform = `translateX(${offset}px)`;
 	}
 
 	setInterval(slideNext, 3000); // Automatically slide every 3 seconds
