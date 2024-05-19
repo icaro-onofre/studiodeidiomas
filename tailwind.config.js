@@ -17,7 +17,10 @@ module.exports = {
 			yellow: '#ECA72C',
 			black: '#000000',
 		},
-
+		screens:{
+			'sm':'400px',
+			'xl':'1280px'
+		},
 	},
 	plugins: [],
 }
