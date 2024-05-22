@@ -69,21 +69,21 @@
 
 	<!-- Hero section -->
 	<section
-		class="col-start-1 col-end-13 grid grid-cols-12 gap-5 bg-lightRed h-[513px] rounded-br-[265px] items-center">
+		class="col-start-1 col-end-13 grid grid-cols-12 gap-5 bg-lightRed h-[513px] rounded-br-[270px] items-center">
 		<div class="flex flex-row col-start-2 col-end-12 justify-between items-center ">
-			<div class="font-oswald w-[434px] space-y-[29px] tracking-tighter">
-				<p class="  text-5xl font-semibold">
+			<div class="font-oswald w-[425px] space-y-[20px] tracking-tighter">
+				<p class="text-[46.1px] font-semibold">
 					Excelência em ensino de línguas
 				</p>
 				<p class="text-2xl ">
 					Construindo o futuro.
 				</p>
-				<button class="bg-mainRed h-10 w-56  text-white rounded-2xl font-black"> Saiba mais</button>
+				<button class="bg-mainRed h-[44.96px] w-[207px] text-white rounded-2xl font-bold font-roboto text-2xl"> Saiba mais</button>
 
 			</div>
 
-			<img class="object-cover w-[494px] h-[379px] rounded-[8px] shadow-1xl"
-				src="./assets_folder/fotos/fachada.png" />
+			<img class="object-cover w-[494px] h-[379px] rounded-[8px] mr-16"
+				src="./assets_folder/fotos/fachada2.png" />
 
 		</div>
 	</section>
@@ -125,12 +125,12 @@
 
 	<section class="col-start-1 col-end-13 items-center mt-20 grid grid-cols-12 gap-5 bg-mainRed h-[631px] space-x-14 relative">
 
-		<div class="flex flex-row w-60 space-x-8 h-16 absolute top-10 left-1/2 transform -translate-x-1/2">
-			<div class="bg-white w-4 h-4 rounded-full"></div>
-			<div class="bg-white w-4 h-4 rounded-full"></div>
-			<div class="bg-white w-4 h-4 rounded-full"></div>
-			<div class="bg-white w-4 h-4 rounded-full"></div>
-			<div class="bg-white w-4 h-4 rounded-full"></div>
+		<div id="carrousel-balls" class="flex flex-row w-60 space-x-8 h-16 absolute top-10 left-1/2 transform -translate-x-1/2">
+			<div id="carrousel-ball-1" class="bg-white w-4 h-4 rounded-full"></div>
+			<div id="carrousel-ball-2" class="bg-white w-4 h-4 rounded-full"></div>
+			<div id="carrousel-ball-3" class="bg-white w-4 h-4 rounded-full"></div>
+			<div id="carrousel-ball-4" class="bg-white w-4 h-4 rounded-full"></div>
+			<div id="carrousel-ball-5" class="bg-white w-4 h-4 rounded-full"></div>
 		</div>
 
 		<div class="flex flex-row col-start-1 col-end-8 items-center space-x-5">
@@ -209,15 +209,15 @@
 	<section
 		class="font-oswald col-start-1 col-end-13 items-center mt-15 grid grid-cols-12 gap-5  h-[631px] space-x-14">
 		<div class="col-start-2 col-end-12 flex flex-row space-x-[41px]">
-			<div>
-				<div class="rounded-sm shadow-black shadow-lg">
+			<div class="flex flex-col">
+				<div class="rounded-sm shadow-black shadow-sm">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d599.6316581331035!2d-46.78384478079201!3d-23.209212917297148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1715130475561!5m2!1sen!2sbr&output=embed"
 						width="560" height="427" style="border:0;" allowfullscreen="" loading="lazy"
 						referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 
-				<button class="bg-mainRed h-10 w-44  text-white rounded-2xl font-black mt-4"> <a
+				<button class="bg-mainRed h-10 w-44  text-white rounded-2xl font-black mt-5 font-roboto self-end"> <a
 						href="https://www.google.com/maps/dir//Studio+de+Idiomas+-+R.+An%C3%ADbal+Lopes+da+Fonseca,+95+-+Centro,+Campo+Limpo+Paulista+-+SP,+13230-001/@-23.2091721,-46.7863154,17z/data=!4m17!1m7!3m6!1s0x94cedf1d94b213df:0x77e20a29b201f531!2sStudio+de+Idiomas!8m2!3d-23.2091721!4d-46.7837405!16s%2Fg%2F11ddx5gqsy!4m8!1m0!1m5!1m1!1s0x94cedf1d94b213df:0x77e20a29b201f531!2m2!1d-46.7837405!2d-23.2091721!3e2?hl=en&entry=ttu">Definir
 						Rota</a></button>
 			</div>
@@ -272,6 +272,12 @@
 	const items = document.querySelectorAll('.carousel-item');
 	const texts = document.querySelectorAll('.carousel-text-item');
 	const trackWidth = items.length * items[0].offsetWidth;
+
+	const ball1 = document.getElementById('carrousel-ball-1');
+	const ball2 = document.getElementById('carrousel-ball-2');
+	const ball3 = document.getElementById('carrousel-ball-3');
+	const ball4 = document.getElementById('carrousel-ball-4');
+	const ball5 = document.getElementById('carrousel-ball-5');
 
 	let index = 0;
 
