@@ -48,7 +48,7 @@
 
 </head>
 
-<body class="bg-background grid grid-cols-12 gap-5">
+<body class="bg-background grid grid-cols-12 gap-5 overflow-x-hidden">
 	<navbar class="font-oswald tracking-tighter h-32 col-start-1 col-end-13 flex flex-row items-center justify-around">
 		<div>
 			<img src="./assets_folder/STUDIO.svg" alt="logo studio de idiomas" width="150px" />
@@ -69,21 +69,25 @@
 
 	<!-- Hero section -->
 	<section
-		class="col-start-1 col-end-13 grid grid-cols-12 gap-5 bg-lightRed h-[513px] rounded-br-[270px] items-center">
+		class="col-start-1 col-end-13 grid grid-cols-13 gap-5 bg-lightRed xl:h-[513px] sm:h-[300px] xl:rounded-br-[270px] sm:rounded-br-[160px] items-center">
 		<div class="flex flex-row col-start-2 col-end-12 justify-between items-center ">
-			<div class="font-oswald w-[425px] space-y-[20px] tracking-tighter">
-				<p class="text-[46.1px] font-semibold">
+			<div class="font-oswald 
+						xl:w-[425px] xl:space-y-[20px] 
+						sm:w-[212.5px] sm:space-y-[10px] 
+						tracking-tighter"
+						>
+				<p class="xl:text-4xl sm:text-2xl font-semibold">
 					Excelência em ensino de línguas
 				</p>
-				<p class="text-2xl ">
+				<p class="xl:text-2xl sm:text-1x">
 					Construindo o futuro.
 				</p>
-				<button class="bg-mainRed h-[44.96px] w-[207px] text-white rounded-2xl font-bold font-roboto text-2xl">
+				<button class="bg-mainRed xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-2xl font-bold font-roboto xl:text-2xl sm:text-[12px]">
 					Saiba mais</button>
 
 			</div>
 
-			<img class="object-cover w-[494px] h-[379px] rounded-[8px] mr-16"
+			<img class="object-cover xl:w-[494px] xl:h-[379px] sm:w-[242px] sm:h-[124px] rounded-[8px] mr-16"
 				src="./assets_folder/fotos/fachada2.png" />
 
 		</div>
@@ -177,7 +181,7 @@
 					<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">
 						O que torna o Studio de Idiomas especial pra você?</h1>
 					<p class="w-80 text-xl font-bold  text-justify text-white font-oswald">
-						“O conhecimento dos professores e forma
+						“O conhecimento dos professores e forma 
 						como é trabalhada a comunicação, trazendo sempre a
 						possibilidade de aprender novos vocabulários de diferentes áreas.”
 					</p>

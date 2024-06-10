@@ -22,6 +22,9 @@ module.exports = {
 			'sm':'400px',
 			'xl':'1280px'
 		},
+		fontSize:{
+			'4xl': '2.881rem',
+		},
 	},
 	plugins: [],
 }
