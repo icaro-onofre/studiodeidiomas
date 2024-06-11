@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 		rel="stylesheet">
 
 	<style>
+
 		.carousel-container {
 			width: 500px;
 			overflow: hidden;
@@ -22,11 +24,6 @@
 		.carousel-track {
 			display: flex;
 			transition: transform 0.5s ease-in-out;
-		}
-
-
-		.carousel-item {
-			flex: 0 0 500px;
 		}
 
 		.carousel-text-container {
@@ -41,9 +38,14 @@
 			transition: transform 0.5s ease-in-out;
 		}
 
+		.carousel-item {
+			flex: 0 0 500px;
+		}
+
 		.text-carousel-item {
 			flex: 0 0 500px;
 		}
+
 	</style>
 
 </head>
@@ -70,19 +72,19 @@
 	<!-- Hero section -->
 	<section
 		class="col-start-1 col-end-13 grid grid-cols-13 gap-5 bg-lightRed xl:h-[513px] sm:h-[300px] xl:rounded-br-[270px] sm:rounded-br-[160px] items-center">
-		<div class="flex flex-row col-start-2 col-end-12 justify-between items-center ">
+		<div class="flex flex-row col-start-2 col-end-12 space-x-28 items-center p-[5rem]">
 			<div class="font-oswald 
 						xl:w-[425px] xl:space-y-[20px] 
 						sm:w-[212.5px] sm:space-y-[10px] 
-						tracking-tighter"
-						>
+						tracking-tighter">
 				<p class="xl:text-4xl sm:text-2xl font-semibold">
 					Excelência em ensino de línguas
 				</p>
 				<p class="xl:text-2xl sm:text-1x">
 					Construindo o futuro.
 				</p>
-				<button class="bg-mainRed xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-2xl font-bold font-roboto xl:text-2xl sm:text-[12px]">
+				<button
+					class="bg-mainRed xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-2xl font-bold font-roboto xl:text-2xl sm:text-[12px]">
 					Saiba mais</button>
 
 			</div>
@@ -94,9 +96,9 @@
 	</section>
 
 	<section class="font-oswald col-start-2 col-end-13 items-center mt-20">
-		<h1 class=" text-3xl font-bold">Ensino presencial e a distância</h1>
-		<h2 class="text-2xl ml-12 mt-[36px] mb-[55px]">Nossos idiomas são: </h2>
-		<ul class="col-start-3 col-end-5 font-bold text-xl list-disc ml-20 mt-9 space-y-[21px]">
+		<h1 class=" xl:text-3xl sm:text-lg font-bold">Ensino presencial e a distância</h1>
+		<h2 class="xl:text-2xl sm:text-xl ml-12 mt-[36px] mb-[55px]">Nossos idiomas são: </h2>
+		<ul class="col-start-3 col-end-5 font-bold xl:text-xl sm:text-sm list-disc ml-20 mt-9 space-y-[21px]">
 			<li>Inglês</li>
 			<li>Português para estrangeiros</li>
 			<li>Italiano</li>
@@ -106,7 +108,8 @@
 	</section>
 
 	<section class="col-start-2 col-end-13 items-center mt-28 grid grid-cols-12 gap-5">
-		<h1 class="font-oswald text-3xl font-bold col-start-1 col-end-13">Nossa história na cidade de Campo Limpo
+		<h1 class="font-oswald xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13">Nossa história na cidade de
+			Campo Limpo
 			Paulista</h1>
 		<div class=" col-start-2 col-end-11 flex flex-row justify-between items-center mt-12 space-x-12">
 
@@ -132,11 +135,11 @@
 
 		<div id="carrousel-balls"
 			class="flex flex-row w-60 space-x-8 h-16 absolute top-10 left-1/2 transform -translate-x-1/2">
-			<div class="carrousel-ball bg-white w-4 h-4 rounded-full"></div>
-			<div class="carrousel-ball bg-white w-4 h-4 rounded-full"></div>
-			<div class="carrousel-ball bg-white w-4 h-4 rounded-full"></div>
-			<div class="carrousel-ball bg-white w-4 h-4 rounded-full"></div>
-			<div class="carrousel-ball bg-white w-4 h-4 rounded-full"></div>
+			<div class="carrousel-ball bg-white xl:w-4 xl:h-4 sm:w-2 sm:h-2 rounded-full"></div>
+			<div class="carrousel-ball bg-white xl:w-4 xl:h-4 sm:w-2 sm:h-2 rounded-full"></div>
+			<div class="carrousel-ball bg-white xl:w-4 xl:h-4 sm:w-2 sm:h-2 rounded-full"></div>
+			<div class="carrousel-ball bg-white xl:w-4 xl:h-4 sm:w-2 sm:h-2 rounded-full"></div>
+			<div class="carrousel-ball bg-white xl:w-4 xl:h-4 sm:w-2 sm:h-2 rounded-full"></div>
 		</div>
 
 		<div class="flex flex-row col-start-1 col-end-8 items-center space-x-5">
@@ -149,22 +152,22 @@
 				<div class=" carousel-container">
 					<div class="carousel-track" id="carouselTrack">
 						<div class="carousel-item">
-							<img class="carouselimg" src="./assets_folder/fotos/sala_de_aula1.png">
+							<img src="./assets_folder/fotos/sala_de_aula1.png">
 						</div>
 						<div class="carousel-item">
-							<img class="carouselimg" src="./assets_folder/fotos/sala_de_aula3.png">
+							<img src="./assets_folder/fotos/sala_de_aula3.png">
 						</div>
 						<div class="carousel-item">
-							<img class="carouselimg" src="./assets_folder/fotos/sala_de_aula2.png">
+							<img src="./assets_folder/fotos/sala_de_aula2.png">
 						</div>
 						<div class="carousel-item">
-							<img class="carouselimg" src="./assets_folder/fotos/jardim.png">
+							<img src="./assets_folder/fotos/jardim.png">
 						</div>
 						<div class="carousel-item">
-							<img class="carouselimg" src="./assets_folder/fotos/recepcao.png">
+							<img src="./assets_folder/fotos/recepcao.png">
 						</div>
 						<div class="carousel-item">
-							<img class="carouselimg" src="./assets_folder/fotos/sala_de_aula4.png">
+							<img src="./assets_folder/fotos/sala_de_aula4.png">
 						</div>
 					</div>
 				</div>
@@ -178,16 +181,16 @@
 		<div class="col-start-8 col-end-12  justify-between items-center space-y-8 carousel-text-container">
 			<div class="carousel-text-track " id="carouselTextTrack">
 				<div class="text-carousel-item space-y-8">
-					<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">
+					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						O que torna o Studio de Idiomas especial pra você?</h1>
 					<p class="w-80 text-xl font-bold  text-justify text-white font-oswald">
-						“O conhecimento dos professores e forma 
+						“O conhecimento dos professores e forma
 						como é trabalhada a comunicação, trazendo sempre a
 						possibilidade de aprender novos vocabulários de diferentes áreas.”
 					</p>
 				</div>
 				<div class="text-carousel-item space-y-8">
-					<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">
+					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						O que torna o Studio de Idiomas especial pra você?</h1>
 					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
 						“A vontade dos professores de ensinar, as aulas dinâmicas e,
@@ -195,7 +198,7 @@
 					</p>
 				</div>
 				<div class="text-carousel-item space-y-8">
-					<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">
+					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						O que torna o Studio de Idiomas especial pra você?</h1>
 					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
 						“As pessoas, tanto os professores, a recepção e os alunos,
@@ -203,7 +206,7 @@
 					</p>
 				</div>
 				<div class="text-carousel-item space-y-8">
-					<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">
+					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						Como foi sua experiência estudando no Studio?</h1>
 					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
 						“Ótima, me ajudou muito a me desenvolver e aplicar no trabalho, além de perder o medo de
@@ -212,7 +215,7 @@
 				</div>
 
 				<div class="text-carousel-item space-y-8">
-					<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">
+					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						Como foi sua experiência estudando no Studio?</h1>
 					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
 						“Foi muito boa e agradável,
@@ -221,7 +224,7 @@
 					</p>
 				</div>
 				<div class="text-carousel-item space-y-8">
-					<h1 class="text-3xl font-bold col-start-1 col-end-13 text-white w-42">
+					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						Como foi sua experiência estudando no Studio?</h1>
 					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">“Um lugar acolhedor que visa
 						ensinar
