@@ -18,11 +18,16 @@ module.exports = {
 			yellow: '#ECA72C',
 			black: '#000000',
 		},
-		screens:{
-			'sm':'400px',
-			'xl':'1280px'
+		screens: {
+			'sm': '400px',
+			'xl': '1280px'
 		},
-		fontSize:{
+		fontSize: {
+			sm: '0.8rem',
+			base: '1rem',
+			xl: '1.25rem',
+			'2xl': '1.563rem',
+			'3xl': '1.953rem',
 			'4xl': '2.881rem',
 		},
 	},
