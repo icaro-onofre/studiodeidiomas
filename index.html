@@ -12,40 +12,70 @@
 		rel="stylesheet">
 
 	<style>
-
-		.carousel-container {
-			width: 500px;
-			overflow: hidden;
-			position: relative;
-			margin: 0 auto;
-			border-radius: 70px;
-		}
-
 		.carousel-track {
 			display: flex;
 			transition: transform 0.5s ease-in-out;
 		}
 
-		.carousel-text-container {
-			width: 500px;
-			overflow: hidden;
-			position: relative;
-			margin: 0 auto;
+		@media (min-width:1280px) {
+			.carousel-container {
+				width: 500px;
+				overflow: hidden;
+				position: relative;
+				margin: 0 auto;
+				border-radius: 70px;
+			}
+
+			.carousel-text-container {
+				width: 500px;
+				overflow: hidden;
+				position: relative;
+				margin: 0 auto;
+			}
+
+			.carousel-text-track {
+				display: flex;
+				transition: transform 0.5s ease-in-out;
+			}
+
+			.carousel-item {
+				flex: 0 0 500px;
+			}
+
+			.text-carousel-item {
+				flex: 0 0 500px;
+			}
 		}
 
-		.carousel-text-track {
-			display: flex;
-			transition: transform 0.5s ease-in-out;
-		}
+		@media (min-width:400px) and (max-width:1200px) {
+			.carousel-container {
+				width: 200px;
+				overflow: hidden;
+				position: relative;
+				margin: 0 auto;
+				border-radius: 20px;
+			}
 
-		.carousel-item {
-			flex: 0 0 500px;
-		}
+			.carousel-text-container {
+				width: 200px;
+				overflow: hidden;
+				position: relative;
+				margin: 0 auto;
+			}
 
-		.text-carousel-item {
-			flex: 0 0 500px;
-		}
+			.carousel-text-track {
+				display: flex;
+				transition: transform 0.5s ease-in-out;
+			}
 
+			.carousel-item {
+				flex: 0 0 200px;
+			}
+
+			.text-carousel-item {
+				flex: 0 0 200px;
+			}
+		}
 	</style>
 
 </head>
@@ -142,11 +172,14 @@
 			<div class="carrousel-ball bg-white xl:w-4 xl:h-4 sm:w-2 sm:h-2 rounded-full"></div>
 		</div>
 
-		<div class="flex flex-row col-start-1 col-end-8 items-center space-x-5">
-			<button onclick="slidePrev()"
-				class="flex items-center justify-center bg-mainRed w-[58px] h-[58px] rounded-full shadow-black shadow-sm ">
-				<img src="./assets_folder/Carrousel/carrouselseta.svg" alt="logo studio de idiomas" width="20px"
-					class="rotate-180" />
+		<div class="flex flex-row col-start-1 col-end-8 items-center xl:space-x-5 sm:space-x-2">
+
+				<button onclick="slidePrev()" class="flex items-center justify-center bg-mainRed 
+					xl:w-[58px] xl:h-[58px] 
+					sm:w-[12px] sm:h-[12px] 
+					rounded-full shadow-black shadow-sm ">
+					<img src="./assets_folder/Carrousel/carrouselseta.svg" alt="logo studio de idiomas" width="20px"
+						class="rotate-180" />
 				<button />
 
 				<div class=" carousel-container">
@@ -173,9 +206,12 @@
 				</div>
 
 				<button onclick="slideNext()"
-					class="flex items-center justify-center bg-mainRed w-[58px] h-[58px] rounded-full shadow-black shadow-sm ">
+					class="flex items-center justify-center bg-mainRed 
+					w-[58px] h-[58px] 
+					sm:w-[12px] sm:h-[12px] 
+					rounded-full shadow-black shadow-sm ">
 					<img src="./assets_folder/Carrousel/carrouselseta.svg" alt="logo studio de idiomas" width="20px" />
-					<button />
+				<button />
 		</div>
 
 		<div class="col-start-8 col-end-12  justify-between items-center space-y-8 carousel-text-container">
@@ -183,7 +219,7 @@
 				<div class="text-carousel-item space-y-8">
 					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						O que torna o Studio de Idiomas especial pra você?</h1>
-					<p class="w-80 text-xl font-bold  text-justify text-white font-oswald">
+					<p class="w-80 xl:text-xl sm:text-sm font-bold  text-justify text-white font-oswald">
 						“O conhecimento dos professores e forma
 						como é trabalhada a comunicação, trazendo sempre a
 						possibilidade de aprender novos vocabulários de diferentes áreas.”
@@ -192,7 +228,7 @@
 				<div class="text-carousel-item space-y-8">
 					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						O que torna o Studio de Idiomas especial pra você?</h1>
-					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
+					<p class="w-80 xl:text-xl sm:text-sm font-bold text-justify text-white font-oswald">
 						“A vontade dos professores de ensinar, as aulas dinâmicas e,
 						nós alunos, estando sempre em constante evolução na matéria!”
 					</p>
@@ -200,7 +236,7 @@
 				<div class="text-carousel-item space-y-8">
 					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						O que torna o Studio de Idiomas especial pra você?</h1>
-					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
+					<p class="w-80 xl:text-xl sm:text-sm font-bold text-justify text-white font-oswald">
 						“As pessoas, tanto os professores, a recepção e os alunos,
 						posso dizer que fiz grandes amizades no Studio de Idiomas.”
 					</p>
@@ -208,7 +244,7 @@
 				<div class="text-carousel-item space-y-8">
 					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						Como foi sua experiência estudando no Studio?</h1>
-					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
+					<p class="w-80 xl:text-xl sm:text-sm font-bold text-justify text-white font-oswald">
 						“Ótima, me ajudou muito a me desenvolver e aplicar no trabalho, além de perder o medo de
 						falar e me fazer compreendido.”
 					</p>
@@ -217,7 +253,7 @@
 				<div class="text-carousel-item space-y-8">
 					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						Como foi sua experiência estudando no Studio?</h1>
-					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">
+					<p class="w-80 xl:text-xl sm:text-sm font-bold text-justify text-white font-oswald">
 						“Foi muito boa e agradável,
 						professores preparados, super simpáticos, com boa didática e atenciosos, ambiente limpo e
 						tranquilo, boa estrutura e atendimento.”
@@ -226,7 +262,8 @@
 				<div class="text-carousel-item space-y-8">
 					<h1 class="xl:text-3xl sm:text-xl font-bold col-start-1 col-end-13 text-white w-42">
 						Como foi sua experiência estudando no Studio?</h1>
-					<p class="w-80 text-xl font-bold text-justify text-white font-oswald">“Um lugar acolhedor que visa
+					<p class="w-80 xl:text-xl sm:text-sm font-bold text-justify text-white font-oswald">“Um lugar
+						acolhedor que visa
 						ensinar
 						idiomas estrangeiros aos alunos. Além disso, um complemento pra formação do aluno como
 						indivíduo para a sociedade.”</p>
