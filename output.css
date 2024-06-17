@@ -2690,6 +2690,18 @@ video {
     margin-top: 1rem;
   }
 
+  .sm\:mt-20{
+    margin-top: 5rem;
+  }
+
+  .sm\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .sm\:flex{
+    display: flex;
+  }
+
   .sm\:h-2{
     height: 0.5rem;
   }
@@ -2720,6 +2732,10 @@ video {
 
   .sm\:h-\[300px\]{
     height: 300px;
+  }
+
+  .sm\:h-\[29px\]{
+    height: 29px;
   }
 
   .sm\:w-2{
@@ -2756,6 +2772,10 @@ video {
 
   .sm\:w-\[24px\]{
     width: 24px;
+  }
+
+  .sm\:w-\[29px\]{
+    width: 29px;
   }
 
   .sm\:flex-col{
@@ -2840,6 +2860,10 @@ video {
     display: flex;
   }
 
+  .xl\:grid{
+    display: grid;
+  }
+
   .xl\:h-10{
     height: 2.5rem;
   }
@@ -2896,8 +2920,16 @@ video {
     width: 58px;
   }
 
+  .xl\:grid-cols-12{
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
   .xl\:flex-row{
     flex-direction: row;
+  }
+
+  .xl\:gap-5{
+    gap: 1.25rem;
   }
 
   .xl\:space-x-12 > :not([hidden]) ~ :not([hidden]){
