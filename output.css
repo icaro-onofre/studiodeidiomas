@@ -920,18 +920,6 @@ video {
   height: 631px;
 }
 
-.h-44{
-  height: 11rem;
-}
-
-.h-\[379px\]{
-  height: 379px;
-}
-
-.h-\[58px\]{
-  height: 58px;
-}
-
 .w-1{
   width: 0.25rem;
 }
@@ -954,14 +942,6 @@ video {
 
 .w-\[weird-and-invalid\]{
   width: weird-and-invalid;
-}
-
-.w-\[494px\]{
-  width: 494px;
-}
-
-.w-\[58px\]{
-  width: 58px;
 }
 
 .flex-shrink{
@@ -2686,16 +2666,12 @@ video {
 }
 
 @media (min-width: 370px){
-  .sm\:mt-4{
-    margin-top: 1rem;
-  }
-
-  .sm\:mt-20{
-    margin-top: 5rem;
-  }
-
   .sm\:mt-24{
     margin-top: 6rem;
+  }
+
+  .sm\:mt-4{
+    margin-top: 1rem;
   }
 
   .sm\:flex{
@@ -2714,10 +2690,6 @@ video {
     height: 124px;
   }
 
-  .sm\:h-\[12px\]{
-    height: 12px;
-  }
-
   .sm\:h-\[139px\]{
     height: 139px;
   }
@@ -2726,16 +2698,12 @@ video {
     height: 22.46px;
   }
 
-  .sm\:h-\[24px\]{
-    height: 24px;
+  .sm\:h-\[29px\]{
+    height: 29px;
   }
 
   .sm\:h-\[300px\]{
     height: 300px;
-  }
-
-  .sm\:h-\[29px\]{
-    height: 29px;
   }
 
   .sm\:w-2{
@@ -2754,10 +2722,6 @@ video {
     width: 122px;
   }
 
-  .sm\:w-\[12px\]{
-    width: 12px;
-  }
-
   .sm\:w-\[160px\]{
     width: 160px;
   }
@@ -2768,10 +2732,6 @@ video {
 
   .sm\:w-\[242px\]{
     width: 242px;
-  }
-
-  .sm\:w-\[24px\]{
-    width: 24px;
   }
 
   .sm\:w-\[29px\]{
@@ -2828,10 +2788,6 @@ video {
 
   .sm\:text-2xl{
     font-size: 1.563rem;
-  }
-
-  .sm\:text-3xl{
-    font-size: 1.953rem;
   }
 
   .sm\:text-\[12px\]{
