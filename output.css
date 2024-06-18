@@ -2690,6 +2690,14 @@ video {
     margin-top: 3.5rem;
   }
 
+  .sm\:mt-\[24px\]{
+    margin-top: 24px;
+  }
+
+  .sm\:mt-20{
+    margin-top: 5rem;
+  }
+
   .sm\:flex{
     display: flex;
   }
