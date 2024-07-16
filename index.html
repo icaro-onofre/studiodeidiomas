@@ -1,6 +1,5 @@
 <!doctype html>
-<html>
-
+<html class="scroll-smooth">
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -100,15 +99,15 @@
 	</style>
 </head>
 
-<body class="bg-background grid grid-cols-12 gap-5 overflow-x-hidden">
+<body class="bg-background grid grid-cols-12 gap-5 overflow-x-hidden ">
 	<navbar class="font-oswald tracking-tighter h-32 col-start-1 col-end-13 flex flex-row items-center justify-around">
 		<div>
 			<img class="xl" src="./assets_folder/STUDIO.svg" alt="logo studio de idiomas" width="150px" />
 			<img class="sm" src="./assets_folder/STUDIO.svg" alt="logo studio de idiomas" width="60px" />
 		</div>
 		<div class="flex flex-row items-center xl:space-x-48 sm:space-x-10 xl:text-2xl sm:text-sm">
-			<a class="font-black">Sobre</a>
-			<a class="font-black">Localização</a>
+			<a href="#sobre" class="font-black">Sobre</a>
+			<a href="#localizacao"class="font-black">Localização</a>
 
 			<div class="flex flex-row items-center justify-center space-x-2">
 				<img class="xl" src="./assets_folder/clipboard.svg" alt="Clipboard" width="20px" />
@@ -131,10 +130,10 @@
 					Excelência em ensino de línguas
 				</p>
 				<p class="xl:text-2xl sm:text-xl">Construindo o futuro.</p>
-				<button
-					class="bg-mainRed xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-2xl font-bold font-roboto xl:text-2xl sm:text-[12px]">
-					Saiba mais
-				</button>
+				<a href="#sobre" ><button
+						class="bg-mainRed xl:h-[44.96px] xl:w-[207px] sm:h-[22.46px] sm:w-[103px] text-white rounded-2xl font-bold font-roboto xl:text-2xl sm:text-[12px]">
+						Saiba mais
+					</button></a>
 			</div>
 
 			<img class="object-cover xl:w-[494px] xl:h-[379px] sm:w-[242px] sm:h-[124px] rounded-[8px] mr-16"
@@ -142,7 +141,7 @@
 		</div>
 	</section>
 
-	<section class="font-oswald col-start-2 col-end-13 items-center xl:mt-20 sm:mt-10">
+	<section id="sobre" class="font-oswald col-start-2 col-end-13 items-center xl:mt-20 sm:mt-10">
 		<h1 class="xl:text-3xl sm:text-lg font-bold">
 			Ensino presencial e a distância
 		</h1>
@@ -301,7 +300,8 @@
 
 	
 	<section
-		class="font-oswald col-start-1 col-end-13 items-center mt-15 grid grid-cols-12 gap-5  h-[631px] space-x-14">
+		class="font-oswald col-start-1 col-end-13 items-center mt-15 grid grid-cols-12 gap-5  h-[631px] space-x-14" id="localizacao">
+		
 		<div class="col-start-2 col-end-12 flex xl:flex-row sm:flex-col space-x-[41px]">
 			<div class="flex flex-col">
 				<div class="rounded-sm shadow-black shadow-sm">
