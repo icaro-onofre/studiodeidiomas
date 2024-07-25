@@ -1,0 +1,9 @@
+/*======= MEDIUM AQUA MARINE =======*/
+.first-section, .about, .services, .portfolio, .team, .news, .contact {
+background-color:mediumAquaMarine;
+background-image: -moz-radial-gradient(center center, circle cover, mediumAquaMarine 0%, #004B47 100%);
+background-image: -webkit-radial-gradient(center center, circle cover, mediumAquaMarine 0%, #004B47 100%);
+background-image: -o-radial-gradient(center center, circle cover, mediumAquaMarine 0%, #004B47 100%);
+background-image: -ms-radial-gradient(center center, circle cover, mediumAquaMarine 0%, #004B47 100%);
+background-image: radial-gradient(center center, circle cover, mediumAquaMarine 0%, #004B47 100%);
+}

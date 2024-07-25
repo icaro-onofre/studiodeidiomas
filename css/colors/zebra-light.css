@@ -1,0 +1,192 @@
+/******************************************************************************/
+/*  COMMON                                                                    */
+/******************************************************************************/
+body {
+	color: #222;
+}
+a, a:visited, a:hover, a:active {
+	color: #222;
+}
+.section {
+	border-bottom:1px dashed #999;
+}
+.first-section {
+}
+/******************************************************************************/
+/*  NAVIGATION                                                                */
+/******************************************************************************/
+.navigation {
+	background:#fff;
+	box-shadow:none;
+	border-bottom:1px dashed #e8e8e8;
+}
+.navigation.scroll {
+	background:#fff;
+	box-shadow:none;
+	border-bottom:1px dashed #e8e8e8;	
+}
+
+.navigation li a {
+	color: #222;
+	border-right:1px dashed #e8e8e8;	
+}
+.navigation li:first-child a {
+	border-left:1px dashed #e8e8e8;	
+}
+.navigation li a:hover {
+	background: #f7f7f7;
+	color:#222;
+}
+.navigation li.active a {
+	color:#222;
+	background:#f7f7f7;
+}
+/******************************************************************************/
+/*  BUTTON                                                                    */
+/******************************************************************************/
+a.button {
+	background: #111;
+	color:#fff;
+
+}
+.button:hover {
+	background: #fff;
+	color:#111;
+}
+/******************************************************************************/
+/*  FONT FORMATING                                                            */
+/******************************************************************************/
+.header-text span {
+	color:#555;
+}
+.first-section {
+	background: #fff;
+}
+.about {
+	background: #111;
+	color:#fff;
+}
+.about .bdot, .about .btop1, .about .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+.about a {
+	color:#fff;
+}
+.services {
+	background: #fff;
+}
+.portfolio {
+	background: #111;
+	color:#fff;
+}
+.portfolio .bdot, .portfolio .btop1, .portfolio .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+.portfolio a , .portfolio .port-frame{
+	color:#fff;
+}
+.team {
+	background: #fff;
+}
+
+/* Testimonials section */
+#testimonials{
+	background: #fff;
+	color: #111;
+}
+#testimonials h5{
+	color: #111;
+}
+.home-features img{
+	background:lightgray;
+}
+
+.news {
+	background: #fff;
+}
+.news .bdot, .news .btop1, .news .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+.news a {
+	color:#555;
+}
+.news a.button {
+border: 1px solid #555;
+color: white;
+}
+
+
+.contact {
+	background: #111;
+	color:#fff;
+}
+.contact a{
+	color:#555;
+}
+
+.btop1 {
+	border-top:1px solid rgba(0, 0, 0, 0.4);
+}
+.bbot1 {
+	border-bottom:1px solid rgba(0, 0, 0, 0.4);
+}
+.bdot {
+	border:1px dashed rgba(0, 0, 0, 0.4);
+}
+ul.blog-news li {
+	border-bottom:1px dashed rgba(255, 255, 255, 0.4);
+}
+
+.port-frame {
+	color: #222;
+}
+.social a {
+	text-decoration:none;
+}
+.contact-form label {
+	color: #555;
+}
+.contact-form input[type=text] {
+	background: transparent;
+	color: #555;
+	border:1px dashed #999;
+}
+.contact-form textarea {
+	background:transparent;
+	color: #555;
+	border:1px dashed #999;	
+}
+
+
+
+
+.cs-text-cut {
+	border-top: 1px dashed rgba(0, 0, 0, 0.5);
+}
+.cs-text-cut:last-child {
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+	border-top:0;
+}
+.cs-text-cut {
+	color: #222;
+}
+.cs-text-mid {
+	color: #222;
+}
+.cs-text-cut.medium {
+	color: #222;
+}
+#slidersection {
+}
+#slider {
+	box-shadow:0px 40px 50px -34px #000;
+}
+
+.circle-box {
+	background: rgba(0,0,0,1);
+	color:#fff;
+}
+.circle-box  .bdot, .circle-box  .btop1, .circle-box  .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+

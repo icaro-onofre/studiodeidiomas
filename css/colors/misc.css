@@ -1,0 +1,63 @@
+.section {
+	border-bottom:none;
+}
+.first-section {
+	background: url(../../images/bg/back4.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+/*.first-section .bbot1,.first-section .btop1,.first-section .bdot {
+	border-color:#111;
+}
+.circle-box .bbot1,.circle-box .btop1,.circle-box .bdot {
+	border-color:#fff;
+}*/
+.about {
+	background:#fff;
+	color:#111;
+}
+.about .bdot, .about .btop1, .about .bbot1 {
+	border-color:#111;
+}
+.services {
+  	background: url(../../images/bg/back1.jpg) no-repeat center center fixed;
+	background-size:cover;
+	border-bottom:none;
+	color:#111;
+}
+.portfolio {
+	background:#fff;
+	color:#111;
+}
+.port-frame {
+	color:#111;
+}
+.team {
+	  	background: url(../../images/bg/back2.jpg) no-repeat center center fixed;
+	background-size:cover;
+	border-bottom:none;
+	color:#fff;
+}
+.news {
+	background:#111;
+}
+.news .bdot, .news .btop1, .news .bbot1, ul.blog-news li  {
+	border-color:#111;
+}
+
+.contact {
+	background:#fff;
+	color:#111;
+	
+}
+.contact a{
+	color: #555;
+}
+.contact-form input[type="text"], .contact-form textarea{
+	border:1px dashed #999;
+}
+.cs-text-cut, .cs-text-mid, .cs-text-cut.medium {
+	color:#111;
+	border-color:#111;
+}
+
+

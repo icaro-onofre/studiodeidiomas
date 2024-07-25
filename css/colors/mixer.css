@@ -1,0 +1,111 @@
+/*======= MIXER =======*/
+.first-section, .about, .services, .portfolio, .team, .news, .contact {
+	background-color:darkSalmon;
+	background-image: -moz-radial-gradient(center center, circle cover, darkSalmon 0%, #B64018 100%);
+	background-image: -webkit-radial-gradient(center center, circle cover, darkSalmon 0%, #B64018 100%);
+	background-image: -o-radial-gradient(center center, circle cover, darkSalmon 0%, #B64018 100%);
+	background-image: -ms-radial-gradient(center center, circle cover, darkSalmon 0%, #B64018 100%);
+	background-image: radial-gradient(center center, circle cover, darkSalmon 0%, #B64018 100%);
+}
+.about, .portfolio, .news {
+	color:#111;
+	background:#fff;
+}
+.about a, .portfolio a, .news a {
+	color:#111;
+}
+.about a.button, .portfolio a.button, .news a.button {
+	color:#fff;
+}
+.about a.button:hover, .portfolio a.button:hover, .news a.button:hover {
+	color:#111;
+}
+/* HOME SECTION */
+.first-section#home {
+	background:#F86B37;
+	color:#FFCCBA
+}
+/* ABOUT SECTION */
+.about {
+	color:#D9EBCD;
+	background:#56AF1B;
+}
+.about .bbot1, .about .btop1, .about .bdot {
+	border-color:#86C55B;
+}
+.about .caption {
+	color:#388000;
+}
+.about a {
+	color:#388000;
+}
+/* SERVICES SECTION */
+.services {
+	color: #5E5600;
+	background: #EBD66B;
+}
+.services .bbot1, .services .btop1, .services .bdot {
+	border-color:#5E5600;
+}
+.services .caption {
+	color:#AA9D06;
+}
+.services a {
+	color: #AA9D06;
+}
+/* PORTFLIO SECTION */
+.portfolio {
+	color: #BDDCDD;
+	background: cadetBlue;
+}
+.portfolio .bbot1, .portfolio .btop1, .portfolio .bdot {
+	border-color:#5E5600;
+}
+.portfolio .caption {
+	color:#036366;
+}
+.portfolio a {
+	color: #036366;
+}
+/* TEAM SECTION */
+.team {
+	color: #E7CACA;
+	background: indianRed;
+}
+.team .bbot1, .team .btop1, .team .bdot {
+	border-color:#E7CACA;
+}
+.team .caption {
+	color:#993636;
+}
+.team a {
+	color: #993636;
+}
+/* NEWS SECTION */
+.news {
+	color: #C1D2E2;
+	background: lightslategrey;
+}
+.news .bbot1, .news .btop1, .news .bdot {
+	border-color:#E7CACA;
+}
+.news .caption {
+	color:#333;
+}
+.news a {
+	color:#333;
+}
+/* CONTACT SECTION */
+.contact {
+	color: #C1D2E2;
+	background: steelBlue;
+}
+.contact .bbot1, .contact .btop1, .contact .bdot {
+	border-color:#E7CACA;
+}
+.contact .caption {
+	color:#333;
+}
+.contact a {
+	color:#333;
+}

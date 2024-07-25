@@ -1,0 +1,9 @@
+/*======= CHOCOLATE =======*/
+.first-section, .about, .services, .portfolio, .team, .news, .contact {
+background-color:chocolate;
+background-image: -moz-radial-gradient(center center, circle cover,chocolate 0%, #753100 100%);
+background-image: -webkit-radial-gradient(center center, circle cover,chocolate 0%, #753100 100%);
+background-image: -o-radial-gradient(center center, circle cover,chocolate 0%, #753100 100%);
+background-image: -ms-radial-gradient(center center, circle cover,chocolate 0%, #753100 100%);
+background-image: radial-gradient(center center, circle cover,chocolate 0%, #753100 100%);
+}

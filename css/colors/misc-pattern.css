@@ -1,0 +1,49 @@
+.first-section {
+	background: url(../../images/patterns/denim.png) repeat;
+	color:#fff;
+}
+.about {
+	background:#fff;
+	color:#111;
+}
+.about .bdot, .about .btop1, .about .bbot1 {
+	border-color:#111;
+}
+.services {
+	background: url(../../images/patterns/whitediamond.png) repeat;
+	color:#111;
+}
+.portfolio {
+	background:#fff;
+	color:#111;
+}
+.port-frame {
+	color:#111;
+}
+.team {
+	background: url(../../images/patterns/nasty_fabric.png) repeat;
+	color:#fff;
+}
+.news {
+	background: url(../../images/patterns/dark_diamond.png);
+}
+.news .bdot, .news .btop1, .news .bbot1, ul.blog-news li {
+	border-color:#111;
+}
+.contact {
+}
+.contact {
+	background:#fff;
+	color:#111;
+	
+}
+.contact a{
+	color: #555;
+}
+.contact-form input[type="text"], .contact-form textarea{
+	border:1px dashed #999;
+}
+.cs-text-cut, .cs-text-mid, .cs-text-cut.medium {
+	color:#fff;
+	border-color:rgba(255, 255, 255, 0.5);
+}

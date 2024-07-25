@@ -1,0 +1,149 @@
+/******************************************************************************/
+/*  COMMON                                                                    */
+/******************************************************************************/
+body {
+	color: #fff;
+}
+a, a:visited, a:hover, a:active {
+	color: #555;
+}
+.section {
+	border-bottom:1px dashed #444;
+}
+.first-section {
+}
+/******************************************************************************/
+/*  NAVIGATION                                                                */
+/******************************************************************************/
+.navigation {
+	background:#111;
+	box-shadow:none;
+	border-bottom:1px dashed #444;
+}
+.navigation.scroll {
+	background:#111;
+	box-shadow:none;
+	border-bottom:1px dashed #444;	
+}
+
+.navigation li a {
+	color: #fff;
+	border-right:1px dashed #444;	
+}
+.navigation li:first-child a {
+	border-left:1px dashed #444;	
+}
+.navigation li a:hover {
+	background: #111;
+	color:#fff;
+}
+.navigation li.active a {
+	color:#fff;
+	background:#111;
+}
+/******************************************************************************/
+/*  BUTTON                                                                    */
+/******************************************************************************/
+a.button {
+	background: #111;
+	color:#fff;
+	border:1px solid #444;
+
+}
+.button:hover {
+	background: #fff;
+	color:#111;
+}
+/******************************************************************************/
+/*  FONT FORMATING                                                            */
+/******************************************************************************/
+.header-text span {
+	color:#eee;
+}
+
+.first-section {
+	background: #111;
+}
+.about {
+	background: #111;
+}
+.services {
+	background: #111;
+}
+.portfolio {
+	background: #111;
+}
+.team {
+	background: #111;
+}
+.news {
+	background: #111;
+}
+.contact {
+	background: #111;
+}
+
+.btop1 {
+	border-top:1px solid rgba(255, 255, 255, 0.4);
+}
+.bbot1 {
+	border-bottom:1px solid rgba(255, 255, 255, 0.4);
+}
+.bdot {
+	border:1px dashed rgba(255, 255, 255, 0.4);
+}
+ul.blog-news li {
+	border-bottom:1px dashed rgba(255, 255, 255, 0.4);
+}
+
+.port-frame {
+	color: #fff;
+}
+.social a {
+	text-decoration:none;
+}
+.contact-form label {
+	color: #aaa;
+}
+.contact-form input[type=text] {
+	background: transparent;
+	color: #aaa;
+	border:1px dashed #444;
+}
+.contact-form textarea {
+	background:transparent;
+	color: #aaa;
+	border:1px dashed #444;	
+}
+
+.cs-text-cut {
+	border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+.cs-text-cut:last-child {
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+	border-top:0;
+}
+.cs-text-cut {
+	color: #fff;
+}
+.cs-text-mid {
+	color: #fff;
+}
+.cs-text-cut.medium {
+	color: #fff;
+}
+#slidersection {
+}
+#slider {
+	box-shadow:0px 40px 50px -34px #000;
+}
+.circle-box {
+	background: rgba(255,255,255,1);
+	color: #111;
+}
+.circle-box  .bdot, .circle-box  .btop1, .circle-box  .bbot1 {
+	border-color:rgba(0,0,0,0.4);
+}
+
+
+

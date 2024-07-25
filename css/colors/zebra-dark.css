@@ -1,0 +1,203 @@
+/******************************************************************************/
+/*  COMMON                                                                    */
+/******************************************************************************/
+body {
+	color: #fff;
+}
+a, a:visited, a:hover, a:active {
+	color: #111;
+}
+.section {
+	border-bottom:1px dashed #999;
+}
+.first-section {
+}
+/******************************************************************************/
+/*  NAVIGATION                                                                */
+/******************************************************************************/
+.navigation {
+	background:#111;
+	box-shadow:none;
+	border-bottom:1px dashed #444;
+}
+.navigation.scroll {
+	background:#111;
+	box-shadow:none;
+	border-bottom:1px dashed #444;	
+}
+.navigation li a {
+	color: #fff;
+	border-right:1px dashed #444;	
+}
+.navigation li:first-child a {
+	border-left:1px dashed #444;	
+}
+.navigation li a:hover {
+	background: #000;
+	color:#fff;
+}
+.navigation li.active a {
+	color:#fff;
+	background:#000;
+}
+
+/******************************************************************************/
+/*  BUTTON                                                                    */
+/******************************************************************************/
+a.button {
+	background: #111;
+	color:#fff;
+	border:1px solid #555;
+
+}
+.button:hover {
+	background: #fff;
+	color:#111;
+}
+/******************************************************************************/
+/*  FONT FORMATING                                                            */
+/******************************************************************************/
+.header-text span {
+	color:#999;
+}
+
+.first-section {
+	background: #111;
+	color:#fff;
+}
+.first-section  .bdot, .first-section  .btop1, .first-section  .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+.first-section  a {
+	color:#fff;
+}
+
+
+.about {
+	color: #111;
+	background:#fff;
+}
+
+
+
+
+.services {
+	background: #111;
+	color:#fff;
+}
+.services .bdot, .services .btop1, .services .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+.services a {
+	color:#fff;
+}
+
+.portfolio {
+	background: #fff;
+	color:#111;
+}
+.portfolio .port-frame{
+	color:#111;
+}
+
+.team {
+	background: #111;
+	color:#fff;
+}
+.team .bdot, .team .btop1, .team .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+.team a {
+	color:#fff;
+}
+.team a.button {
+border: 1px solid #555;
+}
+
+
+.news {
+	background: #111;
+	color:#fff;
+}
+.news a{
+	color: whitesmoke;
+}
+
+.contact {	
+	background: #fff;
+	color:#111;
+}
+.contact .bdot, .contact .btop1, .contact .bbot1 {
+	border-color:rgba(255,255,255,0.4);
+}
+.contact a {
+	color:#111;
+}
+.team a.button {
+border: 1px solid #555;
+}
+
+.contact .btop1 {
+	border-top:1px solid rgba(0, 0, 0, 0.4);
+}
+.contact .bbot1 {
+	border-bottom:1px solid rgba(0, 0, 0, 0.4);
+}
+.contact .bdot {
+	border:1px dashed rgba(0, 0, 0, 0.4);
+}
+ul.blog-news li {
+	border-bottom:1px dashed rgba(0, 0, 0, 0.4);
+}
+
+
+.port-frame {
+	color: #222;
+}
+.social a {
+	text-decoration:none;
+}
+.contact-form label {
+	color: #999;
+}
+.contact-form input[type=text] {
+	background: transparent;
+	color: #999;
+	border:1px dashed #999;
+}
+.contact-form textarea {
+	background:transparent;
+	color: #999;
+	border:1px dashed #999;	
+}
+.cs-text-cut {
+	border-top: 1px dashed rgba(255, 255, 255, 0.5);
+}
+.cs-text-cut:last-child {
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+	border-top:0;
+}
+.cs-text-cut {
+	color: #fff;
+}
+.cs-text-mid {
+	color: #fff;
+}
+.cs-text-cut.medium {
+	color: #fff;
+}
+#slidersection {
+}
+#slider {
+	box-shadow:0px 40px 50px -34px #000;
+}
+
+.circle-box {
+	background: rgba(255,255,255,1);
+	color: #111;
+}
+.circle-box  .bdot, .circle-box  .btop1, .circle-box  .bbot1 {
+	border-color:rgba(0,0,0,0.4);
+}
+
+

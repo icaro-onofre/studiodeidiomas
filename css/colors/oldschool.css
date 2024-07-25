@@ -1,0 +1,155 @@
+/*======= MIXER =======*/
+.first-section, .about, .services, .portfolio, .upload, .team, .news, .contact {
+background-color:tomato;
+background-image: -moz-radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+background-image: -webkit-radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+background-image: -o-radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+background-image: -ms-radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+background-image: radial-gradient(center center, circle cover, tomato 0%, #991B04 100%);
+}
+.about, .portfolio, .upload, .news {
+	color:#111;
+	background:#fff;
+}
+.about a, .portfolio a, .upload a, .news a {
+	color:#111;
+}
+.about a.button, .portfolio a.button, .upload a.button, .news a.button {
+	color:#fff;
+}
+.about a.button:hover, .portfolio a.button:hover, .upload a.button:hover, .news a.button:hover {
+	color:#111;
+}
+/* HOME SECTION */
+.first-section#home {
+	color:#FFCCBA
+}
+#home h2{
+	color: white;
+}
+/* ABOUT SECTION */
+.about{
+	background: white;
+	color: #332F2F;
+}
+.about .bbot1, .about .btop1, .about .bdot {
+	border-color:#7F7B7F;
+}
+.about .caption {
+	color:#7F7B7F;
+}
+.about a {
+	color:#7F7B7F;
+}
+.about h1,.about h2,.about h3,.about h4,.about h5,.about h6{
+	color: #1A3540;
+}
+/* Testimonials section */
+#testimonials{
+	background: #121B26;
+	color: #D9C896;
+}
+#testimonials h5{
+	color: #44545E;
+}
+/* SERVICES SECTION */
+.services {
+	color: #5E5600;
+	background: #EBD66B;
+}
+.services .bbot1, .services .btop1, .services .bdot {
+	border-color:#5E5600;
+}
+.services .caption {
+	color:#AA9D06;
+}
+.services a {
+	color: #AA9D06;
+}
+/* PORTFLIO SECTION */
+.portfolio {
+	color: #F2E0C9;
+	background: #3B3140;
+}
+.portfolio .bbot1, .portfolio .btop1, .portfolio .bdot {
+	border-color:#F1B0B0;
+}
+.portfolio .caption {
+	color:#F1B0B0;
+}
+.portfolio a {
+	color: #F2B9AC;
+}
+/* UPLOAD SECTION */
+.upload {
+	color: #F2E0C9;
+	background: #3B3140;
+}
+.upload .bbot1, .upload .btop1, .upload .bdot {
+	border-color:#F1B0B0;
+}
+.upload .caption {
+	color:#F1B0B0;
+}
+.upload a {
+	color: #F2B9AC;
+}
+/* TEAM SECTION */
+.team {
+	color: #FFE6A9;
+	background-color:crimson;
+	background-image: -moz-radial-gradient(center center, circle cover, crimson 0%, #680303 100%);
+	background-image: -webkit-radial-gradient(center center, circle cover, crimson 0%, #680303 100%);
+	background-image: -o-radial-gradient(center center, circle cover, crimson 0%, #680303 100%);
+	background-image: -ms-radial-gradient(center center, circle cover, crimson 0%, #680303 100%);
+	background-image: radial-gradient(center center, circle cover, crimson 0%, #680303 100%);
+}
+.team .bbot1, .team .btop1, .team .bdot {
+	border-color:#FF6C6C;
+}
+.team .caption {
+	color:#FF6C6C;
+}
+.team a {
+	color: #FF6C6C
+}
+/* NEWS SECTION */
+.news {
+	color: #F2DCB3;
+	background: #1A3540;
+}
+.news .bbot1, .news .btop1, .news .bdot {
+	border-color:#F2B280;
+}
+.news .caption {
+	color:#F2B280;
+}
+.news a {
+	color:#9EAEB8;
+}
+/* CONTACT SECTION */
+.contact {
+	color: #D1D1D1;
+	background: #303030;
+}
+.contact h1,.contact h2,.contact h3,.contact h4,.contact h5,.contact h6{
+	color: #C1D2E2;
+}
+.contact .bbot1, .contact .btop1, .contact .bdot {
+	border-color:#C9C9C9;
+}
+.contact .caption {
+	color:#C9C9C9;
+}
+.contact a {
+	color:#C9C9C9;
+}
+.contact-form input[type="text"],.contact-form textarea{
+	color: #C9C9C9;
+	background: #7C7C7C;
+}
+.submit-btn{
+	color: #C9C9C9;
+	background: #7C7C7C;
+	border-color: #7C7C7C;
+}

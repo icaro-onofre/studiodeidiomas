@@ -1,0 +1,9 @@
+/*======= HOT PINK =======*/
+.first-section, .about, .services, .portfolio, .team, .news, .contact {
+background-color:hotPink;
+background-image: -moz-radial-gradient(center center, circle cover, hotPink 0%, #1A246D 100%);
+background-image: -webkit-radial-gradient(center center, circle cover, hotPink 0%, #1A246D 100%);
+background-image: -o-radial-gradient(center center, circle cover, hotPink 0%, #1A246D 100%);
+background-image: -ms-radial-gradient(center center, circle cover, hotPink 0%, #1A246D 100%);
+background-image: radial-gradient(center center, circle cover, hotPink 0%, #1A246D 100%);
+}
