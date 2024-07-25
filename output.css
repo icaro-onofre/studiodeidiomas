@@ -597,6 +597,10 @@ video {
   visibility: visible;
 }
 
+.\!visible{
+  visibility: visible !important;
+}
+
 .invisible{
   visibility: hidden;
 }
@@ -2820,6 +2824,10 @@ video {
 
   .xl\:mt-28{
     margin-top: 7rem;
+  }
+
+  .xl\:mt-8{
+    margin-top: 2rem;
   }
 
   .xl\:mt-\[36px\]{

@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        server-dir: /home/studiodeidiomas/
+        server-dir: /public_html/
