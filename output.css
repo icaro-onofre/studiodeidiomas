@@ -936,6 +936,10 @@ video {
   width: weird-and-invalid;
 }
 
+.w-32{
+  width: 8rem;
+}
+
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -1985,6 +1989,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow{
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 167 44 / var(--tw-bg-opacity));
 }
 
 .decoration-slice{
